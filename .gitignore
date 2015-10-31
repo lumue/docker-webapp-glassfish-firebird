@@ -1,0 +1,4 @@
+.idea
+docker-webapp-glassfish-firebird.iml
+**/*.iml
+webapp-gf4/template-domain.jar
