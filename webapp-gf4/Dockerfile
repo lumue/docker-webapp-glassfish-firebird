@@ -22,4 +22,4 @@ ADD  password.txt /usr/local/glassfish4/password.txt
 RUN asadmin create-domain --template template-domain.jar --user admin --passwordfile password.txt webapp &&  asadmin start-domain webapp && asadmin --host localhost --port 4848 --user admin --passwordfile password.txt enable-secure-admin && asadmin stop-domain webapp
 
 # verbose causes the process to remain in the foreground so that docker can track it
-CMD         asadmin start-domain --verbose webapp
+CMD asadmin start-domain --verbose webapp

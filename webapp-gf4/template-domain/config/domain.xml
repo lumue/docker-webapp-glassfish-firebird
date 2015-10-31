@@ -65,7 +65,7 @@
   <system-applications />
   <resources>
 	<jdbc-connection-pool max-pool-size="128" is-isolation-level-guaranteed="false" datasource-classname="org.firebirdsql.pool.sun.AppServerConnectionPoolDataSource" res-type="javax.sql.ConnectionPoolDataSource" name="jdbc.pool.korona.resource">
-      <property name="databaseName" value="localhost:/databases/korona.resource.fdb"></property>
+      <property name="databaseName" value="firebird:/databases/korona.resource.fdb"></property>
       <property name="maxPoolSize" value="128"></property>
       <property name="defaultResultSetHoldable" value="true"></property>
       <property name="user" value="SYSDBA"></property>

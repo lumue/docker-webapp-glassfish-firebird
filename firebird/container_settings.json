@@ -1,9 +1,9 @@
 {
-  "_comment": "run firebird with datacontainer volumes",
-  "AttachStdin": true,
-  "OpenStdin": true,
-  "HostConfig": {
-    "PortBindings":{ "3050/tcp": [{ "HostIp": "0.0.0.0", "HostPort": "3050" }] },
+  "Volumes" : { },
+  "ExposedPorts" : { },
+  "HostConfig" : {
+    "Binds" : [ ],
+    "PublishAllPorts" : true,
     "VolumesFrom" : [ "appdata:rw" ]
   }
 }
